@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
+using WebApiContrib.Formatting;
 
 namespace webapi_protobuf
 {
@@ -19,6 +20,8 @@ namespace webapi_protobuf
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+
+            config.Formatters.Add(new ProtoBufFormatter());
         }
     }
 }

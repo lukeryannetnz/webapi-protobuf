@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webapi-protobuf", "webapi-protobuf\webapi-protobuf.csproj", "{B922677C-CB13-4626-9558-FCAFB505DA36}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webapi-client", "webapi-client\webapi-client.csproj", "{CAEE2650-B25C-4EFF-A552-B42C43E0F990}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webapi-protobuf.contracts", "webapi-protobuf.contracts\webapi-protobuf.contracts.csproj", "{7E870F53-D71F-4A2C-9D61-0E8FD08FEBDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{B922677C-CB13-4626-9558-FCAFB505DA36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B922677C-CB13-4626-9558-FCAFB505DA36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B922677C-CB13-4626-9558-FCAFB505DA36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAEE2650-B25C-4EFF-A552-B42C43E0F990}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAEE2650-B25C-4EFF-A552-B42C43E0F990}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAEE2650-B25C-4EFF-A552-B42C43E0F990}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAEE2650-B25C-4EFF-A552-B42C43E0F990}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E870F53-D71F-4A2C-9D61-0E8FD08FEBDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E870F53-D71F-4A2C-9D61-0E8FD08FEBDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E870F53-D71F-4A2C-9D61-0E8FD08FEBDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E870F53-D71F-4A2C-9D61-0E8FD08FEBDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

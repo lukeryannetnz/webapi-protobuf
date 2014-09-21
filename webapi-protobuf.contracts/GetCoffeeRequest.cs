@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 
-namespace webapi_protobuf.Contracts
+namespace webapi_protobuf.contracts
 {
     public class GetCoffeeRequest
     {
