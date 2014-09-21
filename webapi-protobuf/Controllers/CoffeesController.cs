@@ -9,7 +9,11 @@ namespace webapi_protobuf.Controllers
 {
     public class CoffeesController : ApiController
     {
-        // GET: api/Coffee
+        // GET: api/Coffees
+        // GET: api/coffees?id=9111213f-bc79-4521-a762-b1dd5625a237
+        // GET: api/coffees?withMilk=true
+        // GET: api/coffees?name=Espresso
+        // GET: api/coffees?size=small
         public async Task<IEnumerable<Coffee>> Get([FromUri] GetCoffeeRequest request)
         {
             if (request == null)
