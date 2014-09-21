@@ -47,7 +47,7 @@ There is a simple .NET test client however I soon abandoned this in favour of [g
       95% in 0.0858 secs.
       99% in 0.1143 secs.
 
-Notice the content size over the wire (2197 bytes) and requests per second (817).
+Notice the content size over the wire (**2197 bytes**) and requests per second (**817**).
 
 ###Protobuf
     PS C:\Users\Luke\GoCode\bin> .\boom.exe -n 10000 -c 50 -h accept:application/x-protobuf  -m GET http://webapiprotobuf/ap
@@ -61,7 +61,7 @@ Notice the content size over the wire (2197 bytes) and requests per second (817)
       Average:      0.0559 secs.
       Requests/sec: **892.6064**
       Total Data Received:  7880000 bytes.
-      Response Size per Request:    **788** bytes.
+      Response Size per Request:    788 bytes.
 
     Status code distribution:
       [200] 10000 responses
@@ -87,7 +87,7 @@ Notice the content size over the wire (2197 bytes) and requests per second (817)
       90% in 0.0703 secs.
       95% in 0.0772 secs.
       99% in 0.1347 secs.
-Protobuf content size is significantly smaller 788 bytes) with incresed requests per second (892).
+Protobuf content size is significantly smaller (**788 bytes**) with incresed requests per second (**892**).
 
 ##Performance over a busy network with latency
 Todo
